@@ -13,11 +13,34 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 
     @IBOutlet var sceneView: ARSCNView!
     
+//    func getLightNode() -> SCNNode {
+//        let light = SCNLight()
+//        light.type = .omni
+//        light.intensity = 0
+//        light.temperature = 0
+//        let lightNode = SCNNode()
+//        lightNode.light = light
+//        lightNode.position = SCNVector3(0, 1, 0)
+//        return lightNode
+//    }
+    
+//    func addLightNodeTo(_ node: SCNNode) {
+//        let lightNode = getLightNode()
+//        node.addChildNode(lightNode)
+//        lightNodes.append(lightNode)
+//    }
+    
+    func configureLighting() {
+        sceneView.autoenablesDefaultLighting = true
+        sceneView.automaticallyUpdatesLighting = true
+    }
+    
     func addBox(x: Float = 0, y: Float = 0, z: Float = -0.2) {
-        let box = SCNBox(width: 0.1, height: 0.1, length: 0.1, chamferRadius: 0)
+        let box = SCNBox(width: 0.1, height: 0.1, length: 0.1, chamferRadius: 0.01)
         let boxNode = SCNNode()
         boxNode.geometry = box
         boxNode.position = SCNVector3(x, y, z)
+//        addLightNodeTo(boxNode)
         sceneView.scene.rootNode.addChildNode(boxNode)
 //        let scene = SCNScene()
 //        scene.rootNode.addChildNode(boxNode)
@@ -45,7 +68,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        addBox()
+//        addBox()
+        configureLighting()
         addTapGestureToSceneView()
 //        // Set the view's delegate
 //        sceneView.delegate = self
