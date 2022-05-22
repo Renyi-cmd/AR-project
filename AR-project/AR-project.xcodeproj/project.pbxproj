@@ -7,22 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C04952552839FE8200F9726A /* AR_projectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04952542839FE8200F9726A /* AR_projectApp.swift */; };
-		C04952572839FE8200F9726A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04952562839FE8200F9726A /* ContentView.swift */; };
-		C04952592839FE8400F9726A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C04952582839FE8400F9726A /* Assets.xcassets */; };
-		C049525C2839FE8400F9726A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C049525B2839FE8400F9726A /* Preview Assets.xcassets */; };
+		C049528E283A028600F9726A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C049528D283A028600F9726A /* AppDelegate.swift */; };
+		C0495290283A028600F9726A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = C049528F283A028600F9726A /* art.scnassets */; };
+		C0495292283A028600F9726A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0495291283A028600F9726A /* ViewController.swift */; };
+		C0495295283A028600F9726A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0495293283A028600F9726A /* Main.storyboard */; };
+		C0495297283A028900F9726A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0495296283A028900F9726A /* Assets.xcassets */; };
+		C049529A283A028900F9726A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0495298283A028900F9726A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C04952512839FE8200F9726A /* AR-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C04952542839FE8200F9726A /* AR_projectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_projectApp.swift; sourceTree = "<group>"; };
-		C04952562839FE8200F9726A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C04952582839FE8400F9726A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C049525B2839FE8400F9726A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C049528A283A028600F9726A /* AR-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C049528D283A028600F9726A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C049528F283A028600F9726A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		C0495291283A028600F9726A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0495294283A028600F9726A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0495296283A028900F9726A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0495299283A028900F9726A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C049524E2839FE8200F9726A /* Frameworks */ = {
+		C0495287283A028600F9726A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,51 +36,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C04952482839FE8200F9726A = {
+		C0495281283A028600F9726A = {
 			isa = PBXGroup;
 			children = (
-				C04952532839FE8200F9726A /* AR-project */,
-				C04952522839FE8200F9726A /* Products */,
+				C049528C283A028600F9726A /* AR-project */,
+				C049528B283A028600F9726A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C04952522839FE8200F9726A /* Products */ = {
+		C049528B283A028600F9726A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C04952512839FE8200F9726A /* AR-project.app */,
+				C049528A283A028600F9726A /* AR-project.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C04952532839FE8200F9726A /* AR-project */ = {
+		C049528C283A028600F9726A /* AR-project */ = {
 			isa = PBXGroup;
 			children = (
-				C04952542839FE8200F9726A /* AR_projectApp.swift */,
-				C04952562839FE8200F9726A /* ContentView.swift */,
-				C04952582839FE8400F9726A /* Assets.xcassets */,
-				C049525A2839FE8400F9726A /* Preview Content */,
+				C049528D283A028600F9726A /* AppDelegate.swift */,
+				C049528F283A028600F9726A /* art.scnassets */,
+				C0495291283A028600F9726A /* ViewController.swift */,
+				C0495293283A028600F9726A /* Main.storyboard */,
+				C0495296283A028900F9726A /* Assets.xcassets */,
+				C0495298283A028900F9726A /* LaunchScreen.storyboard */,
 			);
 			path = "AR-project";
-			sourceTree = "<group>";
-		};
-		C049525A2839FE8400F9726A /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				C049525B2839FE8400F9726A /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C04952502839FE8200F9726A /* AR-project */ = {
+		C0495289283A028600F9726A /* AR-project */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C049525F2839FE8400F9726A /* Build configuration list for PBXNativeTarget "AR-project" */;
+			buildConfigurationList = C049529D283A028900F9726A /* Build configuration list for PBXNativeTarget "AR-project" */;
 			buildPhases = (
-				C049524D2839FE8200F9726A /* Sources */,
-				C049524E2839FE8200F9726A /* Frameworks */,
-				C049524F2839FE8200F9726A /* Resources */,
+				C0495286283A028600F9726A /* Sources */,
+				C0495287283A028600F9726A /* Frameworks */,
+				C0495288283A028600F9726A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +82,25 @@
 			);
 			name = "AR-project";
 			productName = "AR-project";
-			productReference = C04952512839FE8200F9726A /* AR-project.app */;
+			productReference = C049528A283A028600F9726A /* AR-project.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C04952492839FE8200F9726A /* Project object */ = {
+		C0495282283A028600F9726A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					C04952502839FE8200F9726A = {
+					C0495289283A028600F9726A = {
 						CreatedOnToolsVersion = 13.3;
 					};
 				};
 			};
-			buildConfigurationList = C049524C2839FE8200F9726A /* Build configuration list for PBXProject "AR-project" */;
+			buildConfigurationList = C0495285283A028600F9726A /* Build configuration list for PBXProject "AR-project" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +108,63 @@
 				en,
 				Base,
 			);
-			mainGroup = C04952482839FE8200F9726A;
-			productRefGroup = C04952522839FE8200F9726A /* Products */;
+			mainGroup = C0495281283A028600F9726A;
+			productRefGroup = C049528B283A028600F9726A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C04952502839FE8200F9726A /* AR-project */,
+				C0495289283A028600F9726A /* AR-project */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C049524F2839FE8200F9726A /* Resources */ = {
+		C0495288283A028600F9726A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C049525C2839FE8400F9726A /* Preview Assets.xcassets in Resources */,
-				C04952592839FE8400F9726A /* Assets.xcassets in Resources */,
+				C0495290283A028600F9726A /* art.scnassets in Resources */,
+				C049529A283A028900F9726A /* LaunchScreen.storyboard in Resources */,
+				C0495297283A028900F9726A /* Assets.xcassets in Resources */,
+				C0495295283A028600F9726A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C049524D2839FE8200F9726A /* Sources */ = {
+		C0495286283A028600F9726A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C04952572839FE8200F9726A /* ContentView.swift in Sources */,
-				C04952552839FE8200F9726A /* AR_projectApp.swift in Sources */,
+				C0495292283A028600F9726A /* ViewController.swift in Sources */,
+				C049528E283A028600F9726A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		C0495293283A028600F9726A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0495294283A028600F9726A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0495298283A028900F9726A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0495299283A028900F9726A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		C049525D2839FE8400F9726A /* Debug */ = {
+		C049529B283A028900F9726A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +224,7 @@
 			};
 			name = Debug;
 		};
-		C049525E2839FE8400F9726A /* Release */ = {
+		C049529C283A028900F9726A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,21 +278,24 @@
 			};
 			name = Release;
 		};
-		C04952602839FE8400F9726A /* Debug */ = {
+		C049529E283A028900F9726A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AR-project/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
+				DEVELOPMENT_TEAM = 6JK63UAJQL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,21 +309,24 @@
 			};
 			name = Debug;
 		};
-		C04952612839FE8400F9726A /* Release */ = {
+		C049529F283A028900F9726A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AR-project/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
+				DEVELOPMENT_TEAM = 6JK63UAJQL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,25 +343,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C049524C2839FE8200F9726A /* Build configuration list for PBXProject "AR-project" */ = {
+		C0495285283A028600F9726A /* Build configuration list for PBXProject "AR-project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C049525D2839FE8400F9726A /* Debug */,
-				C049525E2839FE8400F9726A /* Release */,
+				C049529B283A028900F9726A /* Debug */,
+				C049529C283A028900F9726A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C049525F2839FE8400F9726A /* Build configuration list for PBXNativeTarget "AR-project" */ = {
+		C049529D283A028900F9726A /* Build configuration list for PBXNativeTarget "AR-project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C04952602839FE8400F9726A /* Debug */,
-				C04952612839FE8400F9726A /* Release */,
+				C049529E283A028900F9726A /* Debug */,
+				C049529F283A028900F9726A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C04952492839FE8200F9726A /* Project object */;
+	rootObject = C0495282283A028600F9726A /* Project object */;
 }
